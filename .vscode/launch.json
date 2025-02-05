@@ -1,0 +1,49 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "MessagingStompWebsocketApplication",
+      "request": "launch",
+      "mainClass": "com.example.messaging_stomp_websocket.MessagingStompWebsocketApplication",
+      "projectName": "com.example-messaging-stomp-websocket"
+    },
+    {
+      "type": "java",
+      "name": "ReadingApplication",
+      "request": "launch",
+      "mainClass": "hello.reading.ReadingApplication",
+      "projectName": "hello-reading"
+    },
+    {
+      "type": "java",
+      "name": "BookstoreApplication",
+      "request": "launch",
+      "mainClass": "hello.bookstore.BookstoreApplication",
+      "projectName": "hello-bookstore"
+    },
+    {
+      "type": "java",
+      "name": "UserApplication",
+      "request": "launch",
+      "mainClass": "com.example.hello.UserApplication",
+      "projectName": "com.example-user"
+    },
+    {
+      "type": "java",
+      "name": "SayHelloApplication",
+      "request": "launch",
+      "mainClass": "com.example.hello.SayHelloApplication",
+      "projectName": "com.example-say-hello"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-GatewayApplication<com.example-gateway>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.example.gateway.GatewayApplication",
+      "projectName": "com.example-gateway",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
